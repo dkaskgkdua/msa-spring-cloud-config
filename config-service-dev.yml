@@ -1,3 +1,4 @@
 token:
   expiration_time: 86400000
-  secret: user_token_dev
+  #secret: user_token_dev
+  secret: '{cipher}a539bcd18b7b7205fff76900af4dffb6fb3511615a46da9540d86d46bc905332'
