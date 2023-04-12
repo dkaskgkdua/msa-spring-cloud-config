@@ -1,3 +1,4 @@
 token:
   expiration_time: 86400000
-  secret: user_token_prod
+  #secret: user_token_prod
+  secret: '{cipher}fc9cea2769caf981677acf4d73168c9f18276d11cfebec7f7a0f1763e896ecce'
