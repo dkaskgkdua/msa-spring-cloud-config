@@ -13,3 +13,6 @@ spring:
     username: msa
     password: '{cipher}972bb7a462be766740dacb2067b66b296bb798fbec7849c66ce3df32b56de59b'
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+order_service:
+  url: http://localhost:8000/order-service/%s/orders
