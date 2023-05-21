@@ -36,7 +36,7 @@ spring:
       max-file-size: 10MB
       max-request-size: 20MB
   datasource:
-    url: jdbc:mysql://mysql:3306/msa?characterEncoding=utf8&allowPublicKeyRetrieval=true&useSSL=false
+    url: jdbc:mysql://mysqldb:3306/msa?characterEncoding=utf8&allowPublicKeyRetrieval=true&useSSL=false
     username: msa
     password: '{cipher}972bb7a462be766740dacb2067b66b296bb798fbec7849c66ce3df32b56de59b'
     driver-class-name: com.mysql.cj.jdbc.Driver
